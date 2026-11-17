@@ -135,8 +135,8 @@ ul {
 
 .section-heading p {
     color: var(--text-light);
-    font-size: 0.88rem;
-    line-height: 1.65;
+    font-size: 1rem;
+    line-height: 1.7;
 }
 
 a:focus-visible,
@@ -145,8 +145,6 @@ button:focus-visible {
     outline-offset: 4px;
 }
 
-
-/* TABLET */
 @media (min-width: 768px) {
 
     .container {
@@ -158,13 +156,10 @@ button:focus-visible {
     }
 
     .section-heading p {
-        font-size: 0.95rem;
+        font-size: 1.05rem;
     }
-
 }
 
-
-/* DESKTOP */
 @media (min-width: 1024px) {
 
     .container {
@@ -173,6 +168,11 @@ button:focus-visible {
 
     .section-heading h2 {
         font-size: 2.5rem;
+    }
+
+    .section-heading p {
+        font-size: 1.1rem;
+        line-height: 1.8;
     }
 
 }
