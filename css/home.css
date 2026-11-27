@@ -586,6 +586,39 @@
     object-fit: contain;
 }
 
+.instagram-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.instagram-link span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    position: relative;
+}
+
+.instagram-link span::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    border: 1.8px solid #fff;
+    border-radius: 4px;
+}
+
+.instagram-link span::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border: 1.8px solid #fff;
+    border-radius: 50%;
+}
 
 @media (min-width: 768px) {
     .hero {
@@ -953,4 +986,6 @@
     .social-mockup img {
         max-width: 420px;
     }
+
+    
 }
